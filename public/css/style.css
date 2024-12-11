@@ -1,0 +1,110 @@
+/* Custom styles to complement Bootstrap */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.navbar-brand img {
+    max-height: 40px;
+    width: auto;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Main content styles */
+main {
+    min-height: calc(100vh - 200px); /* Adjust based on header and footer height */
+}
+
+/* Card styles */
+.card {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+footer h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    color: #666;
+}
+
+footer img {
+    transition: transform 0.3s ease-in-out;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 1rem;
+    }
+
+    .d-flex {
+        margin-top: 1rem;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        max-height: 30px;
+    }
+
+    footer h3 {
+        font-size: 1.25rem;
+    }
+}

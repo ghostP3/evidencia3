@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(to right, #B7E9FF, #8d8987);
+}
+
+header{
+    background-color: #4D88CA;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo{
+    width: 8%;
+    height: 100%;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.botones_centro{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones_centro button{
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    background: #574B8E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 136px;
+    height: 54px;
+    padding: 4% 12%;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    color: white;
+    font-size: 16px;
+}
+
+.botones_derecha{
+    width: 27%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones_derecha a{
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: #015AC9;
+    display: inline-flex;
+    padding: 4% 16px;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.descripcion_servicios {
+    text-align: center;
+    margin: 5%;
+}
+
+main{
+    margin: 10%;
+}
+
+.tarjetas_fila1, .tarjetas_fila2{
+    padding: 5%;
+    display: flex;
+    align-items: flex-start; /* Alineación superior para que las tarjetas no se expandan más allá de su tamaño */
+    justify-content: center;
+    margin-top: -10.3%; /* Evitar márgenes negativos */
+    font-size: 90%;
+}
+
+.tarjetas {
+    background-color: blue;
+    padding: 10px; /* Cambiado a píxeles para mejor control */
+    width: 300px; 
+    border-radius: 8%; 
+    height: 250px; /* Establecer una altura fija */
+    display: flex;
+    flex-direction: column; /* Permitir que el contenido se apile verticalmente */
+    align-items: center; /* Centrar contenido */
+}
+
+.tarjeta2 img {
+    width: 285px;
+}
+
+.imagenes_adentro {
+    width: 70px; 
+    padding: 0; /* Eliminar padding para evitar expansión */
+    margin-left: -200px; /* Alinear correctamente */
+}   
+
+.imagenes_adentro img {
+    max-width: 100%; /* Mantener la relación de aspecto */
+    height: auto; /* Evitar distorsiones */
+}
+
+.contenido{
+    text-align: center;
+    margin: 5%;
+    margin-left: -50%;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    margin-top: -10%;
+}
+
+.redes{
+    font-size: 12px;
+}
+
+.footer_logo img{
+    width: 60%;
+    margin-right: -250px;
+}
+
+.contactanos{
+    font-size: 12px;
+    text-align: center;
+}
+
+.contacto{
+    margin: 22px;
+}
+
+.rede_sociales img{
+    width: 10%;
+    margin: 10px;
+}
+.rede_sociales{
+    display: flex;
+    align-items: center;
+}

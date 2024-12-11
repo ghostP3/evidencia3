@@ -1,0 +1,76 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem 0;
+}
+
+/* About section styles */
+.about {
+    background-color: #3498db;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Help section styles */
+.help {
+    background-color: #2ecc71;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Vision section styles */
+.vision {
+    background-color: #e74c3c;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+/* Text color for main sections */
+.about, .help, .vision {
+    color: white;
+}
+
+/* Heading color for contrast */
+h2 {
+    color: #f1c40f;
+}
+
+/* Footer styles */
+footer {
+    background-color: #34495e;
+    color: white;
+    padding: 1rem 0;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-md-6 {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Ensure all col-md-6 elements have white text */
+.col-md-6 {
+    color: white;
+}
